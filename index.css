@@ -1,0 +1,129 @@
+/* index.css */
+
+/* Geral */
+body {
+    color: #ffffff; /* Cor do texto principal */
+    background-color: #e0a69d; /* Cor de fundo padrão */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo da navegação */
+nav {
+    background-color: #e0a69d; /* Cor de fundo para a navegação */
+    padding: 10px 0; /* Adiciona padding acima e abaixo do menu de navegação */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center; /* Centraliza os itens de navegação */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 10px; /* Espaçamento entre os itens */
+}
+
+nav a {
+    display: block;
+    padding: 10px 20px; /* Adiciona padding interno para o fundo em retângulo */
+    border-radius: 15px; /* Bordas arredondadas */
+    color: #834841; /* Cor do texto dos links */
+    text-decoration: none;
+    background-color: #e0a69d; /* Cor de fundo dos links */
+}
+
+nav a:hover {
+    background-color: #d59b8f; /* Cor de fundo ao passar o mouse */
+    color: #5BBE42; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo do cabeçalho */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente os itens */
+    justify-content: center; /* Centraliza verticalmente os itens */
+    height: 80vh; /* Altura do cabeçalho, ajusta conforme necessário */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Espaço acima do cabeçalho */
+}
+
+header img {
+    width: 150px; /* Ajusta o tamanho da imagem */
+    height: 150px;
+    border-radius: 50%; /* Mantém o estilo arredondado */
+    border: 5px solid #834841; /* Mantém o contorno da imagem */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+header h1 {
+    color: #834841; /* Define a cor do título */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
+header h2 {
+    color: #834841; /* Define a cor do subtítulo */
+}
+
+/* Estilo para a seção de projetos */
+.project-section {
+    background-color: #ffffff; /* Cor de fundo da seção de projetos */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    margin: 20px 0; /* Espaço acima e abaixo da seção */
+}
+
+.project-section h1, .project-section h2 {
+    color: #834841; /* Cor dos títulos e subtítulos */
+    text-align: left; /* Alinha à esquerda */
+    margin: 10px 0; /* Espaço acima e abaixo dos títulos */
+}
+
+.project-section p.project-description {
+    color: #000000; /* Cor do texto sobre o projeto */
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-bottom: 20px; /* Espaço abaixo do texto */
+}
+
+.project-section img {
+    display: block; /* Garante que a imagem é tratada como um bloco */
+    margin: 0 auto; /* Centraliza a imagem */
+    max-width: 100%; /* Ajusta a imagem para caber dentro do container */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para os ícones de projeto */
+.project-footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os ícones */
+    margin-top: 20px; /* Espaço acima dos ícones */
+}
+
+.project-footer a {
+    text-align: center;
+    color: #834841; /* Cor do texto dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+.project-footer img {
+    width: 60px; /* Tamanho dos ícones */
+    height: 60px;
+    margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+}
+
+/* Ajustes para a área de links em dispositivos móveis */
+@media (max-width: 768px) {
+    .project-footer {
+        flex-direction: column;
+        align-items: center; /* Centraliza os itens em telas menores */
+    }
+
+    .project-footer img {
+        width: 50px; /* Reduz o tamanho dos ícones em telas menores */
+        height: 50px;
+    }
+}
