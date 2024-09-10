@@ -1,6 +1,6 @@
 /* home.css */
 body {
-    background-image: url('https://img.freepik.com/vetores-gratis/fundo-floral-aquarela-pintado-a-mao_23-2149010654.jpg'); /* Caminho para a imagem PNG que ficará sobre o fundo atual */
+    background-image: url('https://img.lovepik.com/background/20211020/large/lovepik-blue-simple-technology-line-background-image_400061413.jpg'); /* Caminho para a imagem PNG que ficará sobre o fundo atual */
     background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
     background-position: center; /* Centraliza a imagem no fundo */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
@@ -8,7 +8,7 @@ body {
 
 /* Estilo da navegação */
 nav {
-    background-color: #e0a69d; /* Cor de fundo para a navegação */
+    background-color: #008cff; /* Cor de fundo para a navegação */
     padding: 10px 0; /* Adiciona padding acima e abaixo do menu de navegação */
 }
 
@@ -28,14 +28,14 @@ nav a {
     display: block;
     padding: 10px 20px; /* Adiciona padding interno para o fundo em retângulo */
     border-radius: 15px; /* Bordas arredondadas */
-    color: #834841; /* Cor do texto dos links */
+    color: #0059ff; /* Cor do texto dos links */
     text-decoration: none;
-    background-color: #e0a69d; /* Cor de fundo dos links */
+    background-color: #ffffff; /* Cor de fundo dos links */
 }
 
 nav a:hover {
-    background-color: #d59b8f; /* Cor de fundo ao passar o mouse */
-    color: #5BBE42; /* Cor do texto ao passar o mouse */
+    background-color: #0051ff; /* Cor de fundo ao passar o mouse */
+    color: #006eff; /* Cor do texto ao passar o mouse */
 }
 
 /* Estilo do cabeçalho */
@@ -53,17 +53,17 @@ header img {
     width: 150px; /* Ajusta o tamanho da imagem */
     height: 150px;
     border-radius: 50%; /* Mantém o estilo arredondado */
-    border: 5px solid #834841; /* Mantém o contorno da imagem */
+    border: 5px solid #ffffff; /* Mantém o contorno da imagem */
     margin-bottom: 20px; /* Espaço abaixo da imagem */
 }
 
 header h1 {
-    color: #834841; /* Define a cor do título */
+    color: #ffffff; /* Define a cor do título */
     margin-bottom: 10px; /* Espaço abaixo do título */
 }
 
 header h2 {
-    color: #834841; /* Define a cor do subtítulo */
+    color: #ffffff; /* Define a cor do subtítulo */
 }
 
 /* Outras regras CSS que você já tem */
